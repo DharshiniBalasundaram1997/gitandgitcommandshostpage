@@ -6,7 +6,111 @@
     <title>Git Commands</title>
 </head>
 <body>
-    <p>Git Init:</p>
+    <p>git  => Version control systems</p>
+    <p>github => will track those changes and 'u' refers untracked files & M for Modified</p>
+</div>
+
+<h2>git commands:</h2>
+<div>
+    <ol>
+        <li>git --version</li>
+        
+        <li>git init</li>
+        <ul>
+            <li>git init - To initialze the git in the project</li>
+        </ul>
+        
+        <li>git stauts</li>
+        <ul>
+            <li>git status means, it will show what is tracked and what is untracked</li>
+        </ul>
+
+        <li> git add (file path name)</li>
+        <ul>
+            <li>Example:  git add gitandgithub\intro.html</li>
+        </ul>
+
+        <li> git commit</li>
+        <ul>
+            <li>git commit -m "any thing we can write here"</li>
+        </ul>
+
+        <li>If u r a first user then, add email and username</li>
+        <ul>
+            <li>git config --global user.email "bdharshini61997@gmail.com"</li>
+            <li> git config user.name "Dharshini Balasundaram1997"</li>
+        </ul>
+
+        <li>git add .</li>
+        <ul>
+            <li> add . this will add all the files</li>
+        </ul>
+
+        <li>git commit -m "your messaage"</li>
+        <ul>
+            <li>git commit -m "any thing we can write here" </li>
+            <li>m => means message</li>
+            <li>Example: git commit -m "added coded"</li>
+        </ul>
+
+        <li>git log</li>
+        <ul>
+            <li>it will show who has done what and it will show the commit messages</li>
+        </ul>
+
+        <li>git reset --hard (enter the commit number)</li>
+        <ul>
+            <li>
+                example: git reset --hard 3f0ec6db2314e43d3d1a08fe786bbec4ffe35c22 <br>
+                hard means => everything it will clear</li>
+        </ul>
+
+        <li>git reset --soft (enter the previous commit number)</li>
+        <ul>
+            <li>Example: git reset --soft 629152322a05bea0eb980a385750fe8019cf8fb8</li>
+            <li>=> u can go to previous commits without deleting the present code by using soft</li>
+        </ul>        
+    </ol>
+</div>    
+
+<div> 
+    <h3>In order to connect the file and github, follow below commands</h3>
+    <p>Go to Github and Create a new Repository and copy below commands and enter in terminal</p>
+    <ol>
+        <li>git remote add origin https://github.com/DharshiniBalasundaram/GitandGitCommands.git</li>
+        <li>git branch -M main</li>
+        <li>git push -u origin main</li>
+    </ol>
+</div>
+
+
+<div>
+    <ul>
+        <li>git clone https://github.com/DharshiniBalasundaram/GitandGitCommands.git</li>
+        <li>git clone will clone all files in u r file explorer</li>
+    </ul>
+</div>
+
+<div>
+    <p>Below commands can be tried in command prompt -> all files will be pulled in file explorer as well</p>
+    <ul>
+        <li>git status</li>
+        <li>git add</li>
+        <li>git commit</li>
+        <li>git push</li>
+        <li>git pull means it will pull all the changes from the github</li>
+    </ul>
+</div>
+
+
+<h2>To Host the page</h2>
+<p>Goto home -> click the repository and click settings ->click pages</p>
+<p>In branch, Choose -> main and click save</p>
+
+<h3>Note:</h3>
+<p>In console => Type q it will exit from the page</p>
+<p>In termial, if we want to exit from the loop of the git commit. Then press :q!</p> 
+
     
 </body>
 </html>
